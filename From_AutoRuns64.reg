@@ -1,0 +1,115 @@
+Windows Registry Editor Version 5.00
+
+; # Internet Explorer mscories.dll.
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89B4C1CD-B018-4511-B0A1-5476DBF70820}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\AutorunsDisabled\{89B4C1CD-B018-4511-B0A1-5476DBF70820}]
+"ComponentID"="DOTNETFRAMEWORKS"
+"DontAsk"=dword:00000002
+"Enabled"=dword:00000000
+"IsInstalled"=dword:00000001
+"StubPath"="C:\\Windows\\System32\\Rundll32.exe C:\\Windows\\System32\\mscories.dll,Install"
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Active Setup\Installed Components\{89B4C1CD-B018-4511-B0A1-5476DBF70820}]
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Active Setup\Installed Components\AutorunsDisabled\{89B4C1CD-B018-4511-B0A1-5476DBF70820}]
+"ComponentID"="DOTNETFRAMEWORKS"
+"DontAsk"=dword:00000002
+"Enabled"=dword:00000000
+"IsInstalled"=dword:00000001
+"StubPath"="C:\\Windows\\SysWOW64\\Rundll32.exe C:\\Windows\\SysWOW64\\mscories.dll,Install"
+
+
+
+; # Internet Explorer plugins.
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\AutorunsDisabled\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}]
+@="IEToEdge BHO"
+"NoExplorer"="1"
+
+
+; Extensions.
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{2670000A-7350-4f3c-8081-5663EE0C6C49}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\AutorunsDisabled\{2670000A-7350-4f3c-8081-5663EE0C6C49}]
+"Default Visible"="Yes"
+"ButtonText"="Send to OneNote"
+"MenuText"="Se&nd to OneNote"
+"ToolTip"="Send to OneNote"
+"HotIcon"="C:\\Program Files\\Microsoft Office\\root\\Office16\\ONBttnIE.dll,103"
+"Icon"="C:\\Program Files\\Microsoft Office\\root\\Office16\\ONBttnIE.dll,103"
+"CLSID"="{1FBA04EE-3024-11d2-8F1F-0000F87ABD16}"
+"ClsidExtension"="{48E73304-E1D6-4330-914C-F5F514E3486C}"
+
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{789FE86F-6FC4-46A1-9849-EDE0DB0C95CA}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\AutorunsDisabled\{789FE86F-6FC4-46A1-9849-EDE0DB0C95CA}]
+"Default Visible"="Yes"
+"ButtonText"="OneNote Lin&ked Notes"
+"MenuText"="OneNote Lin&ked Notes"
+"ToolTip"="OneNote Linked Notes"
+"HotIcon"="C:\\Program Files\\Microsoft Office\\root\\Office16\\ONBttnIELinkedNotes.dll,103"
+"Icon"="C:\\Program Files\\Microsoft Office\\root\\Office16\\ONBttnIELinkedNotes.dll,103"
+"CLSID"="{1FBA04EE-3024-11d2-8F1F-0000F87ABD16}"
+"ClsidExtension"="{FFFDC614-B694-4AE6-AB38-5D6374584B52}"
+
+
+; WOW6432.
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\AutorunsDisabled\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}]
+@="IEToEdge BHO"
+"NoExplorer"="1"
+
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{31D09BA0-12F5-4CCE-BE8A-2923E76605DA}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\AutorunsDisabled\{31D09BA0-12F5-4CCE-BE8A-2923E76605DA}]
+@="Lync Click to Call BHO"
+"NoExplorer"="1"
+
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Extensions\{2670000A-7350-4f3c-8081-5663EE0C6C49}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Extensions\AutorunsDisabled\{2670000A-7350-4f3c-8081-5663EE0C6C49}]
+"Default Visible"="Yes"
+"ButtonText"="Send to OneNote"
+"MenuText"="Se&nd to OneNote"
+"ToolTip"="Send to OneNote"
+"HotIcon"="C:\\Program Files\\Microsoft Office\\root\\VFS\\ProgramFilesX86\\Microsoft Office\\Office16\\ONBttnIE.dll,103"
+"Icon"="C:\\Program Files\\Microsoft Office\\root\\VFS\\ProgramFilesX86\\Microsoft Office\\Office16\\ONBttnIE.dll,103"
+"CLSID"="{1FBA04EE-3024-11d2-8F1F-0000F87ABD16}"
+"ClsidExtension"="{48E73304-E1D6-4330-914C-F5F514E3486C}"
+
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Extensions\{31D09BA0-12F5-4CCE-BE8A-2923E76605DA}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Extensions\AutorunsDisabled\{31D09BA0-12F5-4CCE-BE8A-2923E76605DA}]
+@="Lync Click to Call"
+"MenuText"="Lync Click to Call"
+"Icon"="C:\\Program Files\\Microsoft Office\\root\\VFS\\ProgramFilesX86\\Microsoft Office\\Office16\\lync.exe,1"
+"HotIcon"="C:\\Program Files\\Microsoft Office\\root\\VFS\\ProgramFilesX86\\Microsoft Office\\Office16\\lync.exe,1"
+"CLSID"="{1FBA04EE-3024-11d2-8F1F-0000F87ABD16}"
+"ClsidExtension"="{31D09BA0-12F5-4CCE-BE8A-2923E76605DA}"
+"Default Visible"="Yes"
+"ButtonText"="Lync Click to Call"
+
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Extensions\{789FE86F-6FC4-46A1-9849-EDE0DB0C95CA}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Extensions\AutorunsDisabled\{789FE86F-6FC4-46A1-9849-EDE0DB0C95CA}]
+"Default Visible"="Yes"
+"ButtonText"="OneNote Lin&ked Notes"
+"MenuText"="OneNote Lin&ked Notes"
+"ToolTip"="OneNote Linked Notes"
+"HotIcon"="C:\\Program Files\\Microsoft Office\\root\\VFS\\ProgramFilesX86\\Microsoft Office\\Office16\\ONBttnIELinkedNotes.dll,103"
+"Icon"="C:\\Program Files\\Microsoft Office\\root\\VFS\\ProgramFilesX86\\Microsoft Office\\Office16\\ONBttnIELinkedNotes.dll,103"
+"CLSID"="{1FBA04EE-3024-11d2-8F1F-0000F87ABD16}"
+"ClsidExtension"="{FFFDC614-B694-4AE6-AB38-5D6374584B52}"
